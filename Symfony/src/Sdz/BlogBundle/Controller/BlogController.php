@@ -10,8 +10,6 @@ use Nelmio\SolariumBundle\DependencyInjection\NelmioSolariumExtension;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\ParameterBag\ParameterBag;
 
-//use Nelmio\SolariumBundle\NelmioSolariumBundle;
-
 class BlogController extends Controller
 {
 	public function lister_sejours_paysAction($pays,$start)
@@ -57,7 +55,7 @@ class BlogController extends Controller
 					'pagination' => $pagination*/));
 	}			
 
-	public function indexAction($page)
+	public function indexAction()
 	{
 	
 		//FACETTE - TOUS LES VOYAGES - Return destination offers + number of offers available
@@ -68,47 +66,10 @@ class BlogController extends Controller
 		$facetSet->createFacetField('pays')->setField('manufacturer')->setMincount(1);
 		$resultset = $client->select($query);
 		$facet = $resultset->getFacetSet()->getFacet('pays');
-	
-	               return $this->render('SdzBlogBundle:Blog:index.html.twig', array(
+
+		return $this->render('SdzBlogBundle:Blog:index.html.twig', array(
 	                        'facet' => $facet,
-	  //                      'page' => $page,
-	//                        'nombrePage' => ceil(count($articles)/3)
 				 ));
-
 	}
 
-	public function rechercherAction() //used to be useful to debug
-	{
-	//	return $this->render('SdzBlogBundle:Blog:solarium.html.twig');
-		return $this->render('NelmioSolariumBundle:DataCollector:solarium.html.twig');
-	}
-	public function menuAction()
-	{
-
-        }
-
-	public function menu_headerAction()
-	{
-
-	}
-
-	public function supprimerAction($id)
-	{
-		
-	}
- 
-	public function ajouterAction()
-	{
- 
-	}
-
-	public function voirAction(Article $article)
-	{
-
-	}
-
-	public function modifierAction($id)
-	{
-		
-	}
 }
