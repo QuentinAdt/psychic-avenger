@@ -1,0 +1,15 @@
+{# src/Sdz/BlogBundle/Resources/views/Blog/index.html.twig #}
+ 
+{% extends "SdzBlogBundle::layout.html.twig" %}
+ 
+{% block title %}{{ parent() }} - Index {% endblock %}
+  
+{% block sdzblog_body %}
+{% include "SdzBlogBundle:Blog:body.html.twig" %}
+{% endblock %}
+
+
+{% block sdzblog_sidebar %}
+{% include "SdzBlogBundle:Blog:sidebar.html.twig" %}
+{% endblock %}
+

@@ -1,0 +1,84 @@
+{% block sdzblog_sidebar %}
+
+<!-- Start Left Sidebar  -->
+
+<div class="row">
+  <div class="span3">
+<div class="sidebar-nav">
+  <div class="base">
+   <ul class="nav nav-list">
+                <li class="nav-header">Voyages</li>
+                <li class="active"><a href="#"><div class="fs1" aria-hidden="true" data-icon="&#xe020;"></div>Destinations</a></li><li> </li>
+        {% for pays, nombre in facet  %}
+                <li><a href="{{ path('sdzblog_lister_sejours_pays', {'pays':pays}) }}" class="lien_inline" style="display: inline-block" >{{ pays|replace({'-':" "})|title }} </a> ({{ nombre  }})</li>
+        {% endfor  %}
+                <li class="divider"></li>
+<li class="nav-header">Fourchette de prix</li>
+<li>
+<form class="form-inline">
+<input type="text" class="input-small" placeholder="Min">
+<input type="text" class="input-small" placeholder="Max">
+</form>
+</li>
+
+<li class="divider"></li>
+<li class="nav-header">Options</li>
+<div class="">
+
+            <div class="input-wrapper">
+              <div class="clearfix prettycheckbox labelright  green"><input type="checkbox" class="prettyCheckable" value="1" id="Test1" name="Test1" data-label="Golf" style="display: none;">
+</div>
+            </div><div class="input-wrapper">
+              <div class="clearfix prettycheckbox labelright  green"><input type="checkbox" class="prettyCheckable" value="1" id="Test1" name="Test1" data-label="Piscine" style="display: none;">
+</div>
+            </div>
+
+    <li class="divider"></li>
+
+            <div class="input-wrapper">
+                                <li class="nav-header">Affiner</li>
+                                <div class="clearfix prettyradio labelright margin-right blue">
+                                        <input type="radio" class="prettyCheckable" value="yes" name="colors" data-label="Oui" data-customclass="margin-right" style="display: none;" checked="checked">
+                                </div>
+              <div class="clearfix prettyradio labelright  blue"><input type="radio" class="prettyCheckable" value="Non" name="colors" data-label="No" style="display: none;">
+                                </div>
+            </div>
+
+<hr>
+            <div id="other-colors" class="hide" style="display: block;">
+
+              <div class="input-wrapper">
+
+                <div class="input-wrapper">
+                  <div class="clearfix prettycheckbox labelright  blue"><input type="checkbox" class="prettyCheckable" value="1" id="color1" checked="" name="color1" data-label="5 &eacute;toiles" style="display: none;">
+</div>
+                </div>
+
+                <div class="input-wrapper">
+                  <div class="clearfix prettycheckbox labelright  green"><input type="checkbox" class="prettyCheckable" value="1" id="color2" checked="" name="color2" data-label="4 &eacute;toiles" data-color="&quot;green&quot;" data-color="green" style="display: none;">
+</div>
+                </div>
+
+                <div class="input-wrapper">
+                  <div class="clearfix prettycheckbox labelright  red"><input type="checkbox" class="prettyCheckable" value="1" id="color3" checked="" name="color3" data-label="3 &eacute;toiles" data-color="&quot;red&quot;" data-color="red" style="display: none;">
+</div>
+                </div>
+
+                <div class="input-wrapper">
+                  <div class="clearfix prettycheckbox labelright  yellow"><input type="checkbox" class="prettyCheckable" value="1" id="color4" checked="" name="color4" data-label="2 &eacute;toiles" data-color="&quot;yellow&quot;" data-color="yellow" style="display: none;">
+</div>
+
+
+</div>
+</div>
+<hr>
+</div>
+</div>
+</ul>
+</div>
+</div>
+</div>
+
+ <!-- End Left Sidebar  -->
+
+{% endblock %}
