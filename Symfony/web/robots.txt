@@ -1,0 +1,47 @@
+#Speciale dedicace aux SEO de France et de Navarre !
+User-agent: *
+Disallow: /
+#                                     ?ZZZZZI               7ZZZZ.               
+#                                  :ZZZZZZZZZZZ$         ZZZZZZZZZZZ$            
+#          IIIIMMMMMIIIII         ZZZZZZZZZZZZZZZ      ZZZZZZZZZZZZZZZ           
+#              MMMMM             ZZZZZZZZZZZZZZZZZ~   ZZZZZZZZZZZZZZZZZ          
+#              MMMMM            ZZZZZZZZZZZZZZZZZZZ= ZZZZZZZZZZZZZZZZZZZ         
+#              MMMMM           .ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ        
+#              MMMMM           ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ        
+#              MMMMM           ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ        
+#              MMMMM           ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ        
+#              MMMMM           ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ        
+#              MMMMM           ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ        
+#              MMMMM            ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ         
+#              MMMMM             ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ+         
+#              MMMMM              ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ           
+#              MMMMM               ~ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZI            
+#              MMMMM                 :ZZZZZZZZZZZZZZZZZZZZZZZZZZZZ               
+#              MMMMM                    ZZZZZZZZZZZZZZZZZZZZZZZZ                 
+#              MMMMM                      ?ZZZZZZZZZZZZZZZZZZ=                   
+#              MMMMM                         ZZZZZZZZZZZZZZ.                     
+#          IIIIMMMMMIIIII                      ZZZZZZZZZZ,                       
+#                                               :ZZZZZZZ                         
+#                                                 ZZZZ                           
+#                                                  ZZ                            
+#                                                                                
+#                                                                                
+#         =                                                       =              
+#    MM?     MMO M       MMMMMMMMMMMMMMMMMMMMMMM             MMN     $MM         
+#   M,         MMM           MMMMM           MMM           MM,          MM       
+#  MZ           MM           MMMMM            MM         MMMZ            MMM     
+# MM             M=          MMMMM             M        MMMM             MMMM    
+# MMM                        MMMMM             MI      MMMMM             MMMMM   
+# MMMMM                      MMMMM       M             MMMMM             OMMMM+  
+# ,MMMMMMMMMM                MMMMM       M            MMMMMM             7MMMMM  
+#  +MMMMMMMMMMMMM            MMMMM      MM            MMMMM7             =MMMMM  
+#    MMMMMMMMMMMMM           MMMMMMMMMMMMM            MMMMM7             =MMMMM  
+#        MMMMMMMMMM          MMMMM      MM            MMMMM7             =MMMMM  
+#              MMMMM         MMMMM       M            MMMMMO             OMMMMM  
+#                MMM         MMMMM       M            MMMMMM             MMMMMM  
+#                :MM         MMMMM              M      MMMMM             MMMMM   
+# M               MM         MMMMM              M       MMMM             MMMM    
+# MM             IM          MMMMM             MM        MMM             MMM     
+# MMM            M           MMMMM            MMM         MMM           MMM      
+# MM8MM        MM            MMMMM          MMMMM           MM         MM        
+# M    ZMMMMMM8          MMMMMMMMMMMMMMMMMMMMMMMM             IMMMMMMM?         
